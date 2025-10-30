@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My College</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 70px;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .btn-outline-black {
+            color: black;
+            border: 2px solid black;
+            background-color: transparent;
+        }
+
+        .btn-outline-black:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .recruiter-img {
+            width: 100%;
+            height: 100px;
+            object-fit: contain;
+            background: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .img-caption {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 8px;
+            text-align: center;
+        }
+
+        .navbar {
+            background: linear-gradient(90deg, #0d1b2a, #1b263b);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+        }
+
+        .navbar-nav .nav-link {
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #0b5ed7;
+
+        }
+
+        .hero {
+            height: 100vh;
+            background: url('college.webp') center center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container-fluid">
+
+            <a class="navbar-brand fw-bold" href="#">My College</a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#vision">Vision</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#psos">PSOs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#recruiters">Recruiters</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="hero">
+        <h1>Welcome to My College</h1>
+        <p>Empowering Future Innovators and Leaders</p>
+        <a href="#vision" class="btn btn-light btn-lg">Explore More</a>
+
+    </section>
+
+
+    <section id="vision">
+        <div class="container">
+            <h2 align="center">Vision</h2>
+            <p class="lead">To impart quality technical education through research, innovation and teamwork to create
+                professionally superior and ethically strong manpower.</p>
+        </div>
+    </section>
+
+    <section id="mission">
+        <div class="container">
+            <h2 align="center">Mission</h2>
+            <ul>
+                <li>Provide ICT enabled teaching and learning environment.</li>
+                <li>Enable students to become digital age literates and professionals.</li>
+                <li>Provide knowledge and skills to succeed as engineers and entrepreneurs.</li>
+                <li>Prepare graduates for lifelong learning and ethical challenges.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="psos"">
+    <div class=" container">
+        <h2 align="center">Program Specific Outcomes (PSOs)</h2>
+        <ol>
+            <li>PSO1: Demonstrate skills and competence in the analysis, design and development of computer-based
+                systems addressing industrial and social issues.</li>
+            <li>PSO2: Tackle future technological challenges in areas like security, AI, IoT, etc.</li>
+        </ol>
+        </div>
+    </section>
+
+    <section id="courses" class="text-center">
+        <div class="container">
+            <h2>Courses Offered</h2>
+            <div class="row g-3 justify-content-center mt-3">
+                <div class="col-md-3"><button class="btn btn-outline-black w-100">B.Tech - CSE</button></div>
+                <div class="col-md-3"><button class="btn btn-outline-black w-100">B.Tech - AI/ML</button></div>
+                <div class="col-md-3"><button class="btn btn-outline-black w-100">M.Tech - Cyber Security</button></div>
+                <div class="col-md-3"><button class="btn btn-outline-black w-100">PhD - Computer Engineering</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="bg-light text-center">
+        <div class="container">
+            <h2>Image Gallery of Events</h2>
+            <div class="row mt-4 g-3">
+                <div class="col-md-3 col-6">
+                    <div class="border p-3">
+                        <img src="7.1.webp" class="gallery-img" alt="Event 1">
+                        <p class="img-caption">Freshers Night</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="border p-3">
+                        <img src="7.2.png" class="gallery-img" alt="Event 2">
+                        <p class="img-caption">SIH Hackathon</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="border p-3">
+                        <img src="7.3.jpeg" class="gallery-img" alt="Event 3">
+                        <p class="img-caption">Holi-The Festival Of Colours</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="border p-3">
+                        <img src="7.4.webp" class="gallery-img" alt="Event 4">
+                        <p class="img-caption">Galaxy Bazaar</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="border p-3">
+                        <img src="7.5.jpeg" class="gallery-img" alt="Event 5">
+                        <p class="img-caption">Rangoli Competition</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="border p-3">
+                        <img src="7.6.jpeg" class="gallery-img" alt="Event 6">
+                        <p class="img-caption">Garba Night</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="border p-3">
+                        <img src="7.7.jpeg" class="gallery-img" alt="Event 7">
+                        <p class="img-caption">Web Development Competition</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="border p-3">
+                        <img src="7.8.jpg" class="gallery-img" alt="Event 8">
+                        <p class="img-caption">Concert Night</p>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <section id="recruiters" class="text-center">
+        <div class="container">
+            <h2>Top Recruiters</h2>
+            <div class="row mt-4 g-3">
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="infosys.jpeg" class="recruiter-img" alt="Infosys">
+                        <p class="img-caption">Infosys</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="TCS.png" class="recruiter-img" alt="TCS">
+                        <p class="img-caption">TCS</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="wipro.png" class="recruiter-img" alt="Wipro">
+                        <p class="img-caption">Wipro</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="google.jpeg" class="recruiter-img" alt="Google">
+                        <p class="img-caption">Google</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="Microsoft.svg" class="recruiter-img" alt="Microsoft">
+                        <p class="img-caption">Microsoft</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="IBM.png" class="recruiter-img" alt="IBM">
+                        <p class="img-caption">IBM</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="Accenture.png" class="recruiter-img" alt="Accenture">
+                        <p class="img-caption">Accenture</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="amazon.png" class="recruiter-img" alt="Amazon">
+                        <p class="img-caption">Amazon</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="Capgemini.png" class="recruiter-img" alt="Capgemini">
+                        <p class="img-caption">Capgemini</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="Reliance.png" class="recruiter-img" alt="Reliance">
+                        <p class="img-caption">Reliance</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="oracle.png" class="recruiter-img" alt="Oracle">
+                        <p class="img-caption">Oracle</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="hp.png" class="recruiter-img" alt="HP">
+                        <p class="img-caption">HP</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="Adobe.png" class="recruiter-img" alt="Adobe">
+                        <p class="img-caption">Adobe</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="nvidia.png" class="recruiter-img" alt="Nvidia">
+                        <p class="img-caption">Nvidia</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="intel.webp" class="recruiter-img" alt="Intel">
+                        <p class="img-caption">Intel</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="samsung.png" class="recruiter-img" alt="Samsung">
+                        <p class="img-caption">Samsung</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="flipkart.jpeg" class="recruiter-img" alt="Flipkart">
+                        <p class="img-caption">Flipkart</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="border p-3">
+                        <img src="cisco.png" class="recruiter-img" alt="Cisco">
+                        <p class="img-caption">Cisco</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 My College. All rights reserved.</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
